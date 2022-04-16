@@ -14,5 +14,7 @@ export 'package:ejercicio03/screens/inputs_screen.dart';
 export 'package:ejercicio03/screens/carrusel_screen.dart';
 export 'package:ejercicio03/screens/login_screen.dart';
 export 'package:ejercicio03/screens/menu_drawer.dart';
+export 'package:ejercicio03/screens/slider_screen.dart';
 
 export 'package:ejercicio03/widget/campos_texto.dart';
+export 'package:ejercicio03/screens/listview_builder_screen.dart';

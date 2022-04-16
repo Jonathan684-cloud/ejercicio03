@@ -89,8 +89,8 @@ Widget Campos(String label, String placeholder) {
             labelText: label,
             helperText: 'Solamente Letras',
             counterText: '3 caracteres',
-            prefixIcon: Icon(Icons.verified_user_outlined),
-            suffixIcon: Icon(Icons.person),
+            prefixIcon: const Icon(Icons.verified_user_outlined),
+            suffixIcon: const Icon(Icons.person),
             //icon: Icon(Icons.admin_panel_settings_outlined, size: 30),
           ),
         )

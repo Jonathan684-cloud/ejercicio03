@@ -4,11 +4,21 @@ class CampoDeTexto extends StatelessWidget {
   final String? labelText;
   final String? hintText;
   final String? helperText;
+  final TextInputType? keyboardType;
+  final bool obscureText;
+
+  final String formProperty;
+  final Map<String, String> formValues;
+
   const CampoDeTexto({
     Key? key,
     this.labelText,
     this.hintText,
     this.helperText,
+    this.keyboardType,
+    this.obscureText = false,
+    required this.formProperty,
+    required this.formValues,
   }) : super(key: key);
 
   @override
@@ -16,10 +26,10 @@ class CampoDeTexto extends StatelessWidget {
     return TextFormField(
       autofocus: false,
       initialValue: '',
+      keyboardType: keyboardType,
+      obscureText: obscureText,
       textCapitalization: TextCapitalization.words,
-      onChanged: (value) {
-        print(value);
-      },
+      onChanged: (value) => formValues[formProperty] = value,
       validator: (value) {
         if (value == null) return 'Required';
         return value.length < 3 ? 'minimo 3 letras ' : null;
