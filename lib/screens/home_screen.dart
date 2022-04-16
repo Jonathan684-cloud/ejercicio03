@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 title: Text(
                   menuOpciones[index].name,
-                  style: TextStyle(color: AppTheme.second),
+                  style: const TextStyle(color: AppTheme.second),
                 ),
                 onTap: () {
                   Navigator.pushNamed(context, menuOpciones[index].route);

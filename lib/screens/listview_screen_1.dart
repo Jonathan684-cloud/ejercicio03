@@ -2,11 +2,14 @@ import 'package:flutter/material.dart';
 
 class ListViewScreenUno extends StatelessWidget {
   final options = const [
-    'Jonathan',
-    'Ezequiel',
-    'Benito',
-    'Pineda',
-    '2547522016'
+    'Hamburguesa con queso',
+    'Hamburguesa con queso',
+    'Hamburguesa con queso',
+    'Hamburguesa con queso',
+    'Hamburguesa con queso',
+    'Hamburguesa con queso',
+    'Hamburguesa con queso',
+    'Hamburguesa con queso',
   ];
   const ListViewScreenUno({Key? key}) : super(key: key);
 
@@ -21,7 +24,7 @@ class ListViewScreenUno extends StatelessWidget {
                     leading: const Icon(Icons.access_time_sharp),
                     title: Text(
                       e,
-                      style: const TextStyle(fontSize: 40),
+                      style: const TextStyle(fontSize: 25),
                     ),
                     trailing: const Icon(Icons.arrow_forward_ios_rounded),
                   ))
