@@ -39,12 +39,7 @@ class AppRoutes {
         name: 'Imputs',
         screen: const InputsScreen(),
         icon: Icons.input_rounded),
-    MenuOption(
-      route: 'carousel',
-      name: 'Carrusel Slider',
-      screen: const CarruselScreen(),
-      icon: Icons.person_add,
-    ),
+   
     MenuOption(
       route: 'login',
       name: 'Login Burger Delivery',

@@ -13,7 +13,7 @@ class AppTheme {
   //Tema oscuro
   static final ThemeData darkTheme = ThemeData.light().copyWith(
       primaryColor: Colors.indigo[900],
-      scaffoldBackgroundColor: Colors.white,
+      scaffoldBackgroundColor: Colors.black87,
       appBarTheme: const AppBarTheme(color: primary, elevation: 0),
       //TextButton
       textButtonTheme: TextButtonThemeData(
